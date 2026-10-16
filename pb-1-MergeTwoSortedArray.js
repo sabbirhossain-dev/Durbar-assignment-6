@@ -44,3 +44,7 @@ console.log(mergeSortedArrays([1, 2, 3], [4, 5, 6]));
 console.log(mergeSortedArrays([], [1, 2]));
 // [1, 2]
 console.log(mergeSortedArrays([], [100]));
+
+console.log(mergeSortedArrays([], [1, 2]));
+// [1, 2]
+console.log(mergeSortedArrays([], [100]));
