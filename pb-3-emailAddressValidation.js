@@ -45,3 +45,6 @@ console.log(isValidEmail("user@example.com")); // true
 console.log(isValidEmail("invalid.email@")); // false
 console.log(isValidEmail("abc@domain.c")); // false
 console.log(isValidEmail("abc@domain.com")); // true
+console.log(isValidEmail("abc@domin.com")); // true
+console.log(isValidEmail("abc@domain.com")); // true
+console.log(isValidEmail("abc@omain.com")); // true
